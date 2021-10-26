@@ -1,0 +1,41 @@
+RLPG,,,
+Back pcb,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+2,"c11, c12",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 10µF; voltage 6.3V"
+4,c13-c16,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+1,c17,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 1µF; voltage 6.3V"
+1,c18,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 1nF; voltage 6.3V"
+1,c19,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+1,c20,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 4.7nF; voltage 6.3V"
+1,c21,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 220pF; voltage 6.3V"
+1,d1,Rectifier Diode,package Melf DO-213 AA [SMD]; type Rectifier; part # zener 5.1v
+2,"d2, d3",Rectifier Diode,package Melf DO-213 AA [SMD]; type Rectifier; part # 1N4148
+1,ic1,SOIC-14,package SOIC-14; true; chip label IC; part # TL074
+1,,Generic female header - 6 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 6; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 5 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 5; pin spacing 0.1in (2.54mm)"
+2,"l1, l2",Inductor,package 400 mil [THT]
+1,q1,MOSFET-NCHANNEL,package sot23-3; variant smd; part # 2n7002
+3,"r1, r2, r5",100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+2,"r3, r4",15k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 15kΩ
+1,r6,75 Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 75Ω
+3,"r7, r8, r10",10k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 10kΩ
+1,r9,4.7M Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 4.7MΩ
+2,"u1, u2",VTL5C4,package THT; part VTL5C4; variant variant 3
+,,,
+,,,
+Front PCB,,,
+Amount,Designator,Part Type,Properties
+1,,Generic female header - 6 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 6; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 5 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 5; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm); part # vcaIN"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm); part # envIN"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm); part # xIN"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm); part # audioIN"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm); part # OUT"
+1,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm)"
+1,r1,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance  50kΩ; part # B50K RES
+1,r2,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # A100K VOLUME
+1,r3,1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+1,S1,ToggleSW_Blue1,variant variant 4
+1,VR1,Trimpot 3362P,package 3362P; variant variant 2; part # 100k
